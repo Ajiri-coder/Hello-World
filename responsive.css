@@ -1,0 +1,195 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #252529;
+    /* background-image: url("images/4.jpg"); */
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+:root{
+    --primary-color:#b90415;
+    --primary-color-hover:#d30;
+    --Secondary-color:#b90415;
+    --Secondary-color:#143f85;
+    --light-color:#f4f4f4;
+    
+}
+#showcase{
+    margin:0;
+    padding: 0;
+    background:url("images/people.jpg") no-repeat center/cover;
+   /* width:100%; */
+    height:50vh;
+    position: relative;
+    overflow-x: hidden;
+}
+#showcase .container{
+    margin-top: 25vh;
+}
+#showcase h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+#showcase h2{
+    font-size:2rem;
+}
+.lead{
+    font-size:1.3rem;
+}
+.text-center{
+    text-align: center;
+}
+.mb{
+    margin-bottom: 1rem;
+}
+.mt{
+    margin-top: 1rem;
+}
+/* Utility classes */
+
+
+.container{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0.3rem;
+}
+nav{
+    height:40px;
+    width:100%;
+    background-color: #333;
+     color: #eee;
+    position: fixed;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    float: left;
+}
+nav a{
+    display: inline-block;
+    width:100px;
+    text-align: center;
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #444;
+}
+nav a#openup{
+    display: none;
+}
+/* @media screen and (max-width: 580px){
+.hide-on-small{
+    display: none;
+} */
+#showcase{
+    height: 50vh;
+}
+#showcase.container{
+    margin-top: 10vh;
+}
+
+/* nav{
+    height:auto;
+    border-bottom: 0;
+}
+nav ul{
+    display: none;
+    height:auto;
+}
+nav li{
+    width:100%;
+    float: left;
+    position: relative;
+} */
+#showcase h2{
+    font-size: 1.5rem;
+}
+#showcase h1{
+    font-size: 3rem;
+}
+img{
+    width:100%;
+    /* height:100vh;
+    position: relative;
+    overflow-x: hidden; */
+}
+a{
+    text-decoration: none;
+    color:#ccc;
+}
+
+/* Section */
+.section{
+    padding: 2rem 0;
+}
+.section-head{
+    font-size: 2.5rem;
+    margin:0;
+}
+section h3{
+    font-size:2rem;
+}
+/* Button */
+.btn{
+    padding: 1rem;
+    color:#fff;
+    display: inline-block;
+}
+.btn-primary{
+    background: var(--primary-color);
+}
+.btn-primary:hover{
+    background-color:  var(--primary-color);
+}
+.btn-secondary{
+    background: var(--secondary-color);
+}
+.btn-secondary:hover{
+    background-color:  var(--secondary-color);
+}
+/* Text class */
+.text-primary{
+    color:var(--primary-color);
+}
+.text-secondary{
+    background: var(--secondary-color);
+}
+.text-light{
+    color:var(--light-color);
+}
+.bg-light{
+    background:var(--light-color);
+    color:#333;
+}
+/* Gift Cards */
+.gift-cards{
+    display: grid;
+    grid-gap:20px;grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+/* Footer */
+footer .footer-cols{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    font-size:14px;
+    text-align: left;
+}
+footer  .footer-cols ul{
+    list-style: none;
+}
+footer .footer-cols ul li:first-child{
+font-size: 1.2rem;
+padding-bottom: 0.5rem;
+border-bottom :#444 solid 1px;
+}
+footer .footer-bottom{
+    background: #333;
+    padding:1rem;
+}
+
